@@ -1,0 +1,16 @@
+{
+  "name": "safari-driver-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./index.js",
+    "selenium": "selenium-standalone install && selenium-standalone start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "selenium-standalone": "^5.1.0",
+    "webdriverio": "^4.0.7"
+  }
+}
